@@ -21,6 +21,7 @@
 		CFA3CA64255F9B9D00BE3B32 /* articlecontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3CA63255F9B9D00BE3B32 /* articlecontroller.swift */; };
 		CFF508D0255FC4AB00398266 /* roundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF508CF255FC4AB00398266 /* roundedButton.swift */; };
 		CFF508D2255FDDD300398266 /* preventionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF508D1255FDDD300398266 /* preventionController.swift */; };
+		CFF508D4255FE58300398266 /* medicalinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF508D3255FE58300398266 /* medicalinfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		CFA3CA63255F9B9D00BE3B32 /* articlecontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = articlecontroller.swift; sourceTree = "<group>"; };
 		CFF508CF255FC4AB00398266 /* roundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundedButton.swift; sourceTree = "<group>"; };
 		CFF508D1255FDDD300398266 /* preventionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preventionController.swift; sourceTree = "<group>"; };
+		CFF508D3255FE58300398266 /* medicalinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medicalinfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				CFA3CA63255F9B9D00BE3B32 /* articlecontroller.swift */,
 				CFF508CF255FC4AB00398266 /* roundedButton.swift */,
 				CFF508D1255FDDD300398266 /* preventionController.swift */,
+				CFF508D3255FE58300398266 /* medicalinfo.swift */,
 			);
 			path = "wei and rachel awesomeness";
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				CFA3CA37255F688900BE3B32 /* wei_and_rachel_awesomeness.xcdatamodeld in Sources */,
 				CFF508D2255FDDD300398266 /* preventionController.swift in Sources */,
 				CFA3CA2D255F688900BE3B32 /* AppDelegate.swift in Sources */,
+				CFF508D4255FE58300398266 /* medicalinfo.swift in Sources */,
 				CFA3CA60255F86C600BE3B32 /* homepage.swift in Sources */,
 				CFA3CA2F255F688900BE3B32 /* SceneDelegate.swift in Sources */,
 			);
