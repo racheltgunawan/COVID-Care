@@ -42,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CFA3CA29255F688900BE3B32 /* wei and rachel awesomeness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wei and rachel awesomeness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA3CA29255F688900BE3B32 /* covid care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "covid care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA3CA2C255F688900BE3B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFA3CA2E255F688900BE3B32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CFA3CA30255F688900BE3B32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		CFA3CA2A255F688900BE3B32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFA3CA29255F688900BE3B32 /* wei and rachel awesomeness.app */,
+				CFA3CA29255F688900BE3B32 /* covid care.app */,
 				CFA3CA42255F689200BE3B32 /* wei and rachel awesomenessTests.xctest */,
 				CFA3CA4D255F689200BE3B32 /* wei and rachel awesomenessUITests.xctest */,
 			);
@@ -166,7 +166,7 @@
 			);
 			name = "wei and rachel awesomeness";
 			productName = "wei and rachel awesomeness";
-			productReference = CFA3CA29255F688900BE3B32 /* wei and rachel awesomeness.app */;
+			productReference = CFA3CA29255F688900BE3B32 /* covid care.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CFA3CA41255F689200BE3B32 /* wei and rachel awesomenessTests */ = {
@@ -468,8 +468,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Rachel-Tiffany-Gunawan.wei-and-rachel-awesomeness";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rachel-Tiffany-Gunawan.covid-care";
+				PRODUCT_NAME = "covid care";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -485,8 +485,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Rachel-Tiffany-Gunawan.wei-and-rachel-awesomeness";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rachel-Tiffany-Gunawan.covid-care";
+				PRODUCT_NAME = "covid care";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
