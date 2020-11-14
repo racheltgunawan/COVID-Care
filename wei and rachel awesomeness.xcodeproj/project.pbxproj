@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFA3CA2D255F688900BE3B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3CA2C255F688900BE3B32 /* AppDelegate.swift */; };
+		CFA3CA2F255F688900BE3B32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3CA2E255F688900BE3B32 /* SceneDelegate.swift */; };
+		CFA3CA31255F688900BE3B32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3CA30255F688900BE3B32 /* ViewController.swift */; };
+		CFA3CA34255F688900BE3B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA3CA32255F688900BE3B32 /* Main.storyboard */; };
+		CFA3CA37255F688900BE3B32 /* wei_and_rachel_awesomeness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFA3CA35255F688900BE3B32 /* wei_and_rachel_awesomeness.xcdatamodeld */; };
+		CFA3CA39255F689200BE3B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA3CA38255F689200BE3B32 /* Assets.xcassets */; };
+		CFA3CA3C255F689200BE3B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA3CA3A255F689200BE3B32 /* LaunchScreen.storyboard */; };
+		CFA3CA47255F689200BE3B32 /* wei_and_rachel_awesomenessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3CA46255F689200BE3B32 /* wei_and_rachel_awesomenessTests.swift */; };
+		CFA3CA52255F689200BE3B32 /* wei_and_rachel_awesomenessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3CA51255F689200BE3B32 /* wei_and_rachel_awesomenessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFA3CA43255F689200BE3B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA3CA21255F688900BE3B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA3CA28255F688900BE3B32;
+			remoteInfo = "wei and rachel awesomeness";
+		};
+		CFA3CA4E255F689200BE3B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA3CA21255F688900BE3B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA3CA28255F688900BE3B32;
+			remoteInfo = "wei and rachel awesomeness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFA3CA29255F688900BE3B32 /* wei and rachel awesomeness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wei and rachel awesomeness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA3CA2C255F688900BE3B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFA3CA2E255F688900BE3B32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFA3CA30255F688900BE3B32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFA3CA33255F688900BE3B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFA3CA36255F688900BE3B32 /* wei_and_rachel_awesomeness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wei_and_rachel_awesomeness.xcdatamodel; sourceTree = "<group>"; };
+		CFA3CA38255F689200BE3B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFA3CA3B255F689200BE3B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFA3CA3D255F689200BE3B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA3CA42255F689200BE3B32 /* wei and rachel awesomenessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wei and rachel awesomenessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA3CA46255F689200BE3B32 /* wei_and_rachel_awesomenessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wei_and_rachel_awesomenessTests.swift; sourceTree = "<group>"; };
+		CFA3CA48255F689200BE3B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA3CA4D255F689200BE3B32 /* wei and rachel awesomenessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wei and rachel awesomenessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA3CA51255F689200BE3B32 /* wei_and_rachel_awesomenessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wei_and_rachel_awesomenessUITests.swift; sourceTree = "<group>"; };
+		CFA3CA53255F689200BE3B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFA3CA26255F688900BE3B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA3CA3F255F689200BE3B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA3CA4A255F689200BE3B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFA3CA20255F688900BE3B32 = {
+			isa = PBXGroup;
+			children = (
+				CFA3CA2B255F688900BE3B32 /* wei and rachel awesomeness */,
+				CFA3CA45255F689200BE3B32 /* wei and rachel awesomenessTests */,
+				CFA3CA50255F689200BE3B32 /* wei and rachel awesomenessUITests */,
+				CFA3CA2A255F688900BE3B32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA3CA2A255F688900BE3B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFA3CA29255F688900BE3B32 /* wei and rachel awesomeness.app */,
+				CFA3CA42255F689200BE3B32 /* wei and rachel awesomenessTests.xctest */,
+				CFA3CA4D255F689200BE3B32 /* wei and rachel awesomenessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA3CA2B255F688900BE3B32 /* wei and rachel awesomeness */ = {
+			isa = PBXGroup;
+			children = (
+				CFA3CA2C255F688900BE3B32 /* AppDelegate.swift */,
+				CFA3CA2E255F688900BE3B32 /* SceneDelegate.swift */,
+				CFA3CA30255F688900BE3B32 /* ViewController.swift */,
+				CFA3CA32255F688900BE3B32 /* Main.storyboard */,
+				CFA3CA38255F689200BE3B32 /* Assets.xcassets */,
+				CFA3CA3A255F689200BE3B32 /* LaunchScreen.storyboard */,
+				CFA3CA3D255F689200BE3B32 /* Info.plist */,
+				CFA3CA35255F688900BE3B32 /* wei_and_rachel_awesomeness.xcdatamodeld */,
+			);
+			path = "wei and rachel awesomeness";
+			sourceTree = "<group>";
+		};
+		CFA3CA45255F689200BE3B32 /* wei and rachel awesomenessTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA3CA46255F689200BE3B32 /* wei_and_rachel_awesomenessTests.swift */,
+				CFA3CA48255F689200BE3B32 /* Info.plist */,
+			);
+			path = "wei and rachel awesomenessTests";
+			sourceTree = "<group>";
+		};
+		CFA3CA50255F689200BE3B32 /* wei and rachel awesomenessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA3CA51255F689200BE3B32 /* wei_and_rachel_awesomenessUITests.swift */,
+				CFA3CA53255F689200BE3B32 /* Info.plist */,
+			);
+			path = "wei and rachel awesomenessUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFA3CA28255F688900BE3B32 /* wei and rachel awesomeness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA3CA56255F689200BE3B32 /* Build configuration list for PBXNativeTarget "wei and rachel awesomeness" */;
+			buildPhases = (
+				CFA3CA25255F688900BE3B32 /* Sources */,
+				CFA3CA26255F688900BE3B32 /* Frameworks */,
+				CFA3CA27255F688900BE3B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wei and rachel awesomeness";
+			productName = "wei and rachel awesomeness";
+			productReference = CFA3CA29255F688900BE3B32 /* wei and rachel awesomeness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFA3CA41255F689200BE3B32 /* wei and rachel awesomenessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA3CA59255F689200BE3B32 /* Build configuration list for PBXNativeTarget "wei and rachel awesomenessTests" */;
+			buildPhases = (
+				CFA3CA3E255F689200BE3B32 /* Sources */,
+				CFA3CA3F255F689200BE3B32 /* Frameworks */,
+				CFA3CA40255F689200BE3B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA3CA44255F689200BE3B32 /* PBXTargetDependency */,
+			);
+			name = "wei and rachel awesomenessTests";
+			productName = "wei and rachel awesomenessTests";
+			productReference = CFA3CA42255F689200BE3B32 /* wei and rachel awesomenessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFA3CA4C255F689200BE3B32 /* wei and rachel awesomenessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA3CA5C255F689200BE3B32 /* Build configuration list for PBXNativeTarget "wei and rachel awesomenessUITests" */;
+			buildPhases = (
+				CFA3CA49255F689200BE3B32 /* Sources */,
+				CFA3CA4A255F689200BE3B32 /* Frameworks */,
+				CFA3CA4B255F689200BE3B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA3CA4F255F689200BE3B32 /* PBXTargetDependency */,
+			);
+			name = "wei and rachel awesomenessUITests";
+			productName = "wei and rachel awesomenessUITests";
+			productReference = CFA3CA4D255F689200BE3B32 /* wei and rachel awesomenessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFA3CA21255F688900BE3B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Rachel Tiffany Gunawan";
+				TargetAttributes = {
+					CFA3CA28255F688900BE3B32 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					CFA3CA41255F689200BE3B32 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CFA3CA28255F688900BE3B32;
+					};
+					CFA3CA4C255F689200BE3B32 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CFA3CA28255F688900BE3B32;
+					};
+				};
+			};
+			buildConfigurationList = CFA3CA24255F688900BE3B32 /* Build configuration list for PBXProject "wei and rachel awesomeness" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFA3CA20255F688900BE3B32;
+			productRefGroup = CFA3CA2A255F688900BE3B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFA3CA28255F688900BE3B32 /* wei and rachel awesomeness */,
+				CFA3CA41255F689200BE3B32 /* wei and rachel awesomenessTests */,
+				CFA3CA4C255F689200BE3B32 /* wei and rachel awesomenessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFA3CA27255F688900BE3B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA3CA3C255F689200BE3B32 /* LaunchScreen.storyboard in Resources */,
+				CFA3CA39255F689200BE3B32 /* Assets.xcassets in Resources */,
+				CFA3CA34255F688900BE3B32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA3CA40255F689200BE3B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA3CA4B255F689200BE3B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFA3CA25255F688900BE3B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA3CA31255F688900BE3B32 /* ViewController.swift in Sources */,
+				CFA3CA37255F688900BE3B32 /* wei_and_rachel_awesomeness.xcdatamodeld in Sources */,
+				CFA3CA2D255F688900BE3B32 /* AppDelegate.swift in Sources */,
+				CFA3CA2F255F688900BE3B32 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA3CA3E255F689200BE3B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA3CA47255F689200BE3B32 /* wei_and_rachel_awesomenessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA3CA49255F689200BE3B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA3CA52255F689200BE3B32 /* wei_and_rachel_awesomenessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFA3CA44255F689200BE3B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA3CA28255F688900BE3B32 /* wei and rachel awesomeness */;
+			targetProxy = CFA3CA43255F689200BE3B32 /* PBXContainerItemProxy */;
+		};
+		CFA3CA4F255F689200BE3B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA3CA28255F688900BE3B32 /* wei and rachel awesomeness */;
+			targetProxy = CFA3CA4E255F689200BE3B32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFA3CA32255F688900BE3B32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA3CA33255F688900BE3B32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFA3CA3A255F689200BE3B32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA3CA3B255F689200BE3B32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFA3CA54255F689200BE3B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFA3CA55255F689200BE3B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFA3CA57255F689200BE3B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "wei and rachel awesomeness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rachel-Tiffany-Gunawan.wei-and-rachel-awesomeness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFA3CA58255F689200BE3B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "wei and rachel awesomeness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rachel-Tiffany-Gunawan.wei-and-rachel-awesomeness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFA3CA5A255F689200BE3B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "wei and rachel awesomenessTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rachel-Tiffany-Gunawan.wei-and-rachel-awesomenessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wei and rachel awesomeness.app/wei and rachel awesomeness";
+			};
+			name = Debug;
+		};
+		CFA3CA5B255F689200BE3B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "wei and rachel awesomenessTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rachel-Tiffany-Gunawan.wei-and-rachel-awesomenessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wei and rachel awesomeness.app/wei and rachel awesomeness";
+			};
+			name = Release;
+		};
+		CFA3CA5D255F689200BE3B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "wei and rachel awesomenessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rachel-Tiffany-Gunawan.wei-and-rachel-awesomenessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wei and rachel awesomeness";
+			};
+			name = Debug;
+		};
+		CFA3CA5E255F689200BE3B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "wei and rachel awesomenessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rachel-Tiffany-Gunawan.wei-and-rachel-awesomenessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wei and rachel awesomeness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFA3CA24255F688900BE3B32 /* Build configuration list for PBXProject "wei and rachel awesomeness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA3CA54255F689200BE3B32 /* Debug */,
+				CFA3CA55255F689200BE3B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA3CA56255F689200BE3B32 /* Build configuration list for PBXNativeTarget "wei and rachel awesomeness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA3CA57255F689200BE3B32 /* Debug */,
+				CFA3CA58255F689200BE3B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA3CA59255F689200BE3B32 /* Build configuration list for PBXNativeTarget "wei and rachel awesomenessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA3CA5A255F689200BE3B32 /* Debug */,
+				CFA3CA5B255F689200BE3B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA3CA5C255F689200BE3B32 /* Build configuration list for PBXNativeTarget "wei and rachel awesomenessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA3CA5D255F689200BE3B32 /* Debug */,
+				CFA3CA5E255F689200BE3B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFA3CA35255F688900BE3B32 /* wei_and_rachel_awesomeness.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFA3CA36255F688900BE3B32 /* wei_and_rachel_awesomeness.xcdatamodel */,
+			);
+			currentVersion = CFA3CA36255F688900BE3B32 /* wei_and_rachel_awesomeness.xcdatamodel */;
+			path = wei_and_rachel_awesomeness.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFA3CA21255F688900BE3B32 /* Project object */;
+}
