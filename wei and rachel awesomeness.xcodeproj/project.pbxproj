@@ -24,6 +24,7 @@
 		CFF508D4255FE58300398266 /* medicalinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF508D3255FE58300398266 /* medicalinfo.swift */; };
 		CFF508D825608F6500398266 /* roundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF508D725608F6500398266 /* roundedLabel.swift */; };
 		CFF508DA2560B4A100398266 /* symptomsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF508D92560B4A100398266 /* symptomsController.swift */; };
+		CFF5091B25610C4600398266 /* testingSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF5091A25610C4600398266 /* testingSite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		CFF508D3255FE58300398266 /* medicalinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medicalinfo.swift; sourceTree = "<group>"; };
 		CFF508D725608F6500398266 /* roundedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundedLabel.swift; sourceTree = "<group>"; };
 		CFF508D92560B4A100398266 /* symptomsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptomsController.swift; sourceTree = "<group>"; };
+		CFF5091A25610C4600398266 /* testingSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingSite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				CFF508D3255FE58300398266 /* medicalinfo.swift */,
 				CFF508D725608F6500398266 /* roundedLabel.swift */,
 				CFF508D92560B4A100398266 /* symptomsController.swift */,
+				CFF5091A25610C4600398266 /* testingSite.swift */,
 			);
 			path = "wei and rachel awesomeness";
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				CFF508DA2560B4A100398266 /* symptomsController.swift in Sources */,
 				CFA3CA2D255F688900BE3B32 /* AppDelegate.swift in Sources */,
 				CFF508D4255FE58300398266 /* medicalinfo.swift in Sources */,
+				CFF5091B25610C4600398266 /* testingSite.swift in Sources */,
 				CFA3CA60255F86C600BE3B32 /* homepage.swift in Sources */,
 				CFA3CA2F255F688900BE3B32 /* SceneDelegate.swift in Sources */,
 			);

@@ -828,10 +828,10 @@ Aw
             </objects>
             <point key="canvasLocation" x="2562.3188405797105" y="1339.9553571428571"/>
         </scene>
-        <!--View Controller-->
+        <!--Testing Site-->
         <scene sceneID="PMA-Bd-fSM">
             <objects>
-                <viewController id="jLv-5W-pDn" sceneMemberID="viewController">
+                <viewController id="jLv-5W-pDn" customClass="testingSite" customModule="covid_care" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8u1-Nh-QtH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -845,15 +845,29 @@ Aw
                                     <segue destination="cMD-C3-QgH" kind="show" id="aSk-Uy-OKs"/>
                                 </connections>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="icc-31-NiY">
+                                <rect key="frame" x="0.0" y="236" width="414" height="524"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find a testing site near you" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1d-ll-uia">
+                                <rect key="frame" x="0.0" y="74" width="414" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="41"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.96721035239999997" green="0.88805752989999998" blue="0.85379683969999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.90621858835220337" green="0.59200292825698853" blue="0.43146264553070068" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="RJr-kK-dSF"/>
                     </view>
                     <navigationItem key="navigationItem" id="7vw-Xs-VKg"/>
+                    <connections>
+                        <outlet property="mapView" destination="icc-31-NiY" id="1Z5-h4-fny"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zUh-3m-GrK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2186" y="450"/>
+            <point key="canvasLocation" x="2185.507246376812" y="450"/>
         </scene>
         <!--Prevention Controller-->
         <scene sceneID="qhE-Vc-KqT">
@@ -1125,6 +1139,7 @@ Aw
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="LDi-Yt-0US"/>
         <segue reference="z2f-LZ-uJS"/>
         <segue reference="aSk-Uy-OKs"/>
     </inferredMetricsTieBreakers>
