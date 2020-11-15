@@ -767,8 +767,8 @@ Aw
                                     <action selector="feverNo:" destination="xky-Zz-BUg" eventType="touchUpInside" id="FmA-P1-4DG"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You should take the Covid testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WR-mK-oON">
-                                <rect key="frame" x="57" y="784" width="301" height="28"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You should take a Covid test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WR-mK-oON">
+                                <rect key="frame" x="76" y="784" width="254" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -813,6 +813,8 @@ Aw
                         <outlet property="fatigueLabel" destination="Y7e-gM-HaZ" id="0Dn-tE-U7R"/>
                         <outlet property="fatigueNoButton" destination="jr2-bt-iUs" id="Pz1-yz-Mo5"/>
                         <outlet property="fatigueYesButton" destination="hEd-tz-C0J" id="bg3-6T-7x3"/>
+                        <outlet property="feverNoButton" destination="lbP-yK-Yfw" id="hMy-ti-Qbx"/>
+                        <outlet property="feverYesButton" destination="q8x-v5-sYP" id="3q3-yi-WhL"/>
                         <outlet property="headacheLabel" destination="qnz-t7-EJq" id="Ata-Qc-gTp"/>
                         <outlet property="headacheNoButton" destination="92K-n7-oZi" id="HTJ-mC-nHJ"/>
                         <outlet property="headacheYesButton" destination="JVp-TU-LNC" id="E2q-qq-U1m"/>
@@ -1148,8 +1150,8 @@ Aw
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RWD-qX-uVN"/>
-        <segue reference="CBj-2o-Fxa"/>
+        <segue reference="z2f-LZ-uJS"/>
+        <segue reference="aSk-Uy-OKs"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2020-11-13 at 10.11.25 PM" width="770" height="637"/>
